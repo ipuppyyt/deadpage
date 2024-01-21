@@ -1,0 +1,34 @@
+{
+  "name": "deadpage",
+  "version": "1.0.0",
+  "description": "Client did not pay? Add opacity to the body tag and decrease it every day until their site completely fades away.",
+  "main": "dist/deadpage.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ipuppyyt/deadpage.git"
+  },
+  "keywords": [
+    "package",
+    "npm",
+    "not-paid",
+    "payment",
+    "client",
+    "developer"
+  ],
+  "author": "iPuppyYT",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ipuppyyt/deadpage/issues"
+  },
+  "homepage": "https://github.com/ipuppyyt/deadpage#readme",
+  "dependencies": {
+    "@types/react": "^18.2.48",
+    "@types/react-dom": "^18.2.18",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^5.3.3"
+  }
+}
