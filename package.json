@@ -1,10 +1,11 @@
 {
   "name": "deadpage",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "Client did not pay? Add opacity to the body tag and decrease it every day until their site completely fades away.",
   "main": "dist/deadpage.js",
   "scripts": {
-    "build": "tsc"
+    "bump": "cd src && node bump.js",
+    "build": "npm run bump && tsc"
   },
   "repository": {
     "type": "git",
@@ -27,8 +28,10 @@
   "dependencies": {
     "@types/react": "^18.2.48",
     "@types/react-dom": "^18.2.18",
+    "fs": "^0.0.1-security",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "semver": "^7.5.4",
     "typescript": "^5.3.3"
   }
 }
